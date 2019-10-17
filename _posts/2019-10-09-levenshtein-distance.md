@@ -11,8 +11,7 @@ object Levenshtein extends Memoizable {
   def calc(s1: String, s2: String): Int =
     levenshtein(s1.toList, s2.toList)
 
-  lazy val levenshtein: ((List[Char], List[Char])) => Int
-    = memoized {
+  lazy val levenshtein: ((List[Char], List[Char])) => Int = memoized {
       case (Nil, Nil) => 0
       case (x, Nil) => x.length
       case (Nil, y) => y.length
