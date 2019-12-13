@@ -6,6 +6,8 @@ comments: true
 ---
 
 Post about solving classical 8 queen problem using Haskell.
+![]()
+![](https://upload.wikimedia.org/wikipedia/commons/1/1f/Eight-queens-animation.gif)
 
 # Solution idea
 
