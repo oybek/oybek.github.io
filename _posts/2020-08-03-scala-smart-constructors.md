@@ -1,14 +1,12 @@
 ---
 layout: post
-title: "Postgres setup guide"
+title: "Case classes vs Smart constructors"
 tags: [scala]
 ---
 
-> Reposted from [tpolecat](https://gist.github.com/tpolecat/a5cb0dc9adeacc93f846835ed21c92d2)
-
-### Case classes vs Smart constructors
-
 *I just learned this trick from @OlegYch and it seems pretty good. Wondering if anyone knows of any problems with it.*
+
+> Reposted from [tpolecat](https://gist.github.com/tpolecat/a5cb0dc9adeacc93f846835ed21c92d2)
 
 People often try to constrain construction of a case class by making the constructor `private` and providing a partial factory method on the companion. For instance, a natural number class wrapping an `Int`:
 
