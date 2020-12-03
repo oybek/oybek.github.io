@@ -30,14 +30,18 @@ Let's define function which tells does two queens conflict (attack each other):
 
 ```haskell
 doesConflict :: () => (Int, Int) -> (Int, Int) -> Bool
-doesConflict (x1, y1) (x2, y2) = (x1 == x2) || (y1 == y2) || (abs(x1-x2) == abs(y1-y2))
+doesConflict (x1, y1) (x2, y2) =
+  (x1 == x2) ||
+  (y1 == y2) ||
+  (abs(x1-x2) == abs(y1-y2))
 ```
 
 We will generate queens and need to have a function which detects is placement good:
 
 ```haskell
 doConflict :: () => [(Int, Int)] -> (Int, Int) -> Bool
-doConflict queens candidate = True `elem` (map (doesConflict candidate) queens)
+doConflict queens candidate =
+  True `elem` (map (doesConflict candidate) queens)
 
 isGood :: () => [(Int, Int)] -> Bool
 isGood [] = True
@@ -82,10 +86,14 @@ Whole code:
 import Data.List
 
 doesConflict :: () => (Int, Int) -> (Int, Int) -> Bool
-doesConflict (x1, y1) (x2, y2) = (x1 == x2) || (y1 == y2) || (abs(x1-x2) == abs(y1-y2))
+doesConflict (x1, y1) (x2, y2) =
+  (x1 == x2) ||
+  (y1 == y2) ||
+  (abs(x1-x2) == abs(y1-y2))
 
 doConflict :: () => [(Int, Int)] -> (Int, Int) -> Bool
-doConflict queens candidate = True `elem` (map (doesConflict candidate) queens)
+doConflict queens candidate =
+  True `elem` (map (doesConflict candidate) queens)
 
 isGood :: () => [(Int, Int)] -> Bool
 isGood [] = True
