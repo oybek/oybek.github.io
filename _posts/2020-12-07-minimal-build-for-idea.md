@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Minimal build for Intellij IDEA"
+title: "Super budged PC for programming"
 tags: [hardware]
 ---
 
