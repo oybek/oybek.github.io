@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Программирование ради кайфа"
+title: ""
 tags: [programming]
 ---
 
