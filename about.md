@@ -1,10 +1,6 @@
 ---
 layout: page
-title: About
 permalink: /about/
 ---
 
-25 y. o. Live in Yekaterinburg/Russian Federation.
-
-[Resume](https://stackoverflow.com/cv/oybek)
-
+<script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-post="hashimov0/3" data-width="100%"></script>
