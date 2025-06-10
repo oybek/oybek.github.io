@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: oybek
+name: oybek 🚀
 
 # Short bio or description (displayed in the header)
-description: Всякое пишу про айти
+description: notes for myself
 
 #
 # Flags below are optional
@@ -20,13 +20,13 @@ avatar: https://avatars0.githubusercontent.com/u/2409985?s=460&v=4
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: Посты
+  - name: posts
     url: /
-  - name: Кто я
+  - name: about me
     url: /about
-  - name: Архив
+  - name: archive
     url: /archive
-  - name: Тэги
+  - name: tags
     url: /tags
 
 # Pagination
@@ -39,7 +39,7 @@ footer-links:
   linkedin: hashimov
   stackoverflow: users/7413747/oybek
   youtube: "@wolf_code"
-  telegram: wolfcoders
+  telegram: hashimov0
 
 # Text under the icons in footer
 footer-text: © 2019 oybek
